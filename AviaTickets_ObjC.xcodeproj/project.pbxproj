@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2D569421B7A41100D3DEB2 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D569321B7A41100D3DEB2 /* PlaceViewController.m */; };
 		0D3499B021B11D4800CA3150 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D3499AD21B11D4700CA3150 /* cities.json */; };
 		0D3499B121B11D4800CA3150 /* airports.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D3499AE21B11D4700CA3150 /* airports.json */; };
 		0D3499B221B11D4800CA3150 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D3499AF21B11D4700CA3150 /* countries.json */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2D569221B7A41100D3DEB2 /* PlaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		0D2D569321B7A41100D3DEB2 /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
 		0D3499AD21B11D4700CA3150 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		0D3499AE21B11D4700CA3150 /* airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports.json; sourceTree = "<group>"; };
 		0D3499AF21B11D4700CA3150 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
@@ -55,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2D569121B7A3C000D3DEB2 /* PlaceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D569221B7A41100D3DEB2 /* PlaceViewController.h */,
+				0D2D569321B7A41100D3DEB2 /* PlaceViewController.m */,
+			);
+			path = PlaceViewController;
+			sourceTree = "<group>";
+		};
 		0D3499AC21B11D3200CA3150 /* JsonData */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 				0D3499BE21B121D200CA3150 /* DataManager.m */,
 				0D7A4F2421B0206E002D2F8B /* AppDelegate.h */,
 				0D7A4F2521B0206E002D2F8B /* AppDelegate.m */,
+				0D2D569121B7A3C000D3DEB2 /* PlaceViewController */,
 				0D7A4F2721B0206E002D2F8B /* MainViewController.h */,
 				0D7A4F2821B0206E002D2F8B /* MainViewController.m */,
 				0D7A4F2D21B02071002D2F8B /* Assets.xcassets */,
@@ -189,6 +202,7 @@
 				0D3499B621B11DEB00CA3150 /* Country.m in Sources */,
 				0D3499BF21B121D200CA3150 /* DataManager.m in Sources */,
 				0D7A4F2921B0206E002D2F8B /* MainViewController.m in Sources */,
+				0D2D569421B7A41100D3DEB2 /* PlaceViewController.m in Sources */,
 				0D3499BC21B1207100CA3150 /* Airport.m in Sources */,
 				0D7A4F3421B02071002D2F8B /* main.m in Sources */,
 				0D7A4F2621B0206E002D2F8B /* AppDelegate.m in Sources */,
